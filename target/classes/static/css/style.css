@@ -1,0 +1,49 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+body{
+    
+}
+header{
+    background-color: rgb(209, 172, 212);
+    text-align: center;
+
+}
+
+header h1{
+    padding: 0.4em;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+div.container a:hover{
+    color: red;
+    background-color: rgb(255, 212, 155);
+}
+
+div.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.container a{
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 1em;
+    background-color: rgb(80, 252, 180);
+    width: 350px;
+}

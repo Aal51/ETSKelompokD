@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/encrpt.css">
+    <script src="https://kit.fontawesome.com/eaddb2a2e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+
+    <header>
+        <h1>Cryptography</h1>
+        <h6>Encrpty</h6>
+    </header>
+
+    <main id="main">
+            <div class="file">
+                <label for="files"><span><i class="fa-solid fa-folder"></i></span> Choose File</label>
+                <input type="file" name="files" id="files">
+            </div>
+
+            <div class="genKey">
+                <button id="generatorKey">Generate GenKey</button>
+            </div>
+            
+            <div class="key">
+                <label for="nilaiQ">q</label>
+                <input type="number" name="nilaiQ" id="nilaiQ">
+                <label for="nilaiH">h</label>
+                <input type="number" name="nilaiH" id="nilaiH">
+
+                <label for="nilaiG">g</label>
+                <input type="number" name="nilaiG" id="nilaiG">
+
+
+                <label for="priKey1">Private Key 1</label>
+                <input type="number" name="priKey1" id="priKey1">
+               
+            </div>
+            <div class="enc">
+                <button id="encrypt">Encrpty</button>
+            </div>
+           <div class="priKey2">
+            <label for="privateKey2">Private Key 2</label>
+                <input type="number" name="privateKey2" id="privateKey2">
+           </div>
+            <div id="divDownload" class="dec">
+                <a class="dwn" id="download">Download</a>
+            </div>
+    </main>
+
+    <input type="hidden" id="textHidden">
+    
+    <script type="module" src="../Js/test2.js"></script>
+
+    
+</body>
+</html>

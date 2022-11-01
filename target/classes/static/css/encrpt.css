@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+header{
+    background-color: rgb(209, 172, 212);
+    text-align: center;
+
+}
+
+header h1{
+    padding: 0.4em;
+    font-size: 1.5em;
+}
+
+header h6{
+    padding: 0.5em;
+    background-color: rgb(80, 252, 180);
+    font-size: 1.2em
+}
+
+div.file{
+    width: 500px;
+    padding: 0.2em;
+    text-align: center;
+    margin: 2em auto;
+    cursor: pointer;
+    background-color: rgb(217, 217, 217);
+}
+
+
+div.file label{
+
+    /* display: inline-block; */
+    height: 1.4em;
+    width: 19em;
+    font-size: 0.8em;
+    cursor: pointer;
+   
+}
+
+div.file:hover{
+    color: red;
+    background-color: rgb(255, 212, 155);
+}
+
+span{
+    margin-right: 0.3em;
+}
+
+div.file input[type="file"]{
+    text-decoration: none;
+    border: none;
+    /* display: none; */
+}
+
+.genKey{
+    text-align: center;
+}
+
+#generatorKey{
+    cursor: pointer;
+    font-size: 0.5em;
+    border: none;
+    width: 12em;
+    height: 2em;
+    text-decoration: none;
+    background-color: rgb(80, 252, 180);
+    margin-bottom: 1em;
+}
+
+/* 
+KEY start
+ */
+
+div.key{
+    text-align: center;
+    font-size: 0.5em;
+}
+
+div.key input[type="number"]{
+    padding: 0.5em;
+    display: inline-block;
+}
+
+div.key label{
+    margin-left: 1em;
+}
+
+
+ /* KEY END */
+a{
+    text-decoration: none;
+}
+div.enc button{
+    cursor: pointer;
+    font-size: 0.8em;
+    border: none;
+    width: 14em;
+    height: 2em;
+    text-decoration: none;
+    background-color: rgb(80, 252, 180);
+}
+div.enc{
+    margin: 1.5em auto;
+    text-align: center;
+    width: 400px;
+    /* text-decoration: none;
+    background-color: rgb(80, 252, 180); */
+}
+
+/* 
+Private Key 2 Start
+*/
+
+.priKey2{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.priKey2 input[type="number"]{
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.priKey2 label{
+    font-size: 0.5em;
+}
+
+/* 
+Private Key 2 End
+*/
+div.dec{
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    padding: 0.3em;
+    text-decoration: none;
+}
+div.enc button:hover{
+    color: red;
+    background-color: rgb(255, 212, 155);
+}
+
+.dwn{
+    background-color: rgb(201, 94, 94);
+    padding: 0.3em 1em;
+    text-decoration: none;
+}
+
+div.textArea {
+    margin-top: 30px;
+    text-align: center;
+}

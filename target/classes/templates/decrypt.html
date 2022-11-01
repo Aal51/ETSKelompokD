@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/encrpt.css">
+    <script src="https://kit.fontawesome.com/eaddb2a2e7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Cryptography</h1>
+        <h6>Decrpt</h6>
+    </header>
+
+    <main>
+            <div class="file">
+                <label for="filee"><span><i class="fa-solid fa-folder"></i></span> Choose File</label>
+                <input type="file" name="filee" id="files">
+                
+            </div>
+            <div class="key"> 
+                <label for="nilaiQ">q</label>
+                <input type="number" name="nilaiQ" id="nilaiQ">
+
+                <label for="priKey1">Private Key 1</label>
+                <input type="number" name="priKey1" id="priKey1">
+
+                <label for="priKey2">Private Key 2</label>
+                <input type="number" name="priKey2" id="priKey2">
+
+                
+            </div>
+            <div class="enc">
+                <button id="decrypt">Decrpyt</button>
+            </div>
+            
+            <div id="divDownload" class="dec">
+                <a class="dwn" id="download">Download</a>
+            </div>
+    <input type="hidden" id="textHidden">
+
+    </main>
+
+    <script type="module" src="../Js/decrypt.js"></script>
+
+</body>
+</html>
